@@ -1,0 +1,54 @@
+.Usuario {
+  display: flex;
+  padding: .5rem;
+  margin: 1rem 0;
+  border-radius: .25rem;
+  background-color: #FFF;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .14);
+}
+
+.Usuario:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .14);
+}
+
+.Usuario .avatar {
+  max-width: 60px;
+  max-height: 60px;
+  border-radius: 50%;
+}
+
+.Usuario .conteudo {
+  width: 100%;
+  margin-left: 1rem;
+  position: relative;
+}
+
+.Usuario ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.Usuario ul li b {
+  color: #3c6eda;
+}
+
+.Usuario button {
+  top: 0;
+  right: 0;
+  padding: 0;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 3px;
+  position: absolute;
+  background-color: #f16e6e;
+  cursor: pointer;
+}
+
+.Usuario button:hover,
+.Usuario button:focus {
+  color: #FFF;
+  background-color: #d65555;
+}
